@@ -1,0 +1,8 @@
+Projekt za vježbu --> Pig Game
+
+Ideja za projekt je s tutoriala za Javascript i DOM manipulation, te je rađen uz pomoć istog.
+U svrhu ponavljanja gradiva za fakulet i osobni interes.
+
+Pravila igre nalaze se na vrhu koda, Challenges.js datoteke. 
+
+
