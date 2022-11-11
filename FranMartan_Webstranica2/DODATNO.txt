@@ -1,0 +1,3 @@
+Projekt za potrebe fakulteta --> (HTML, Bootstrap) 
+
+Probna web stranica isključivo za vježbu bootsrap-a.
