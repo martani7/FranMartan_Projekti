@@ -1,0 +1,6 @@
+Projekt za vježbu --> HTML, CSS i Javascript (Game World)
+
+Projekt "Game World" izrađen je prvenstveno za vježbu HTML-a i CSS-a, te je kasnije upotrebljen za fakultet.
+Web stranica je responzivna za različite dimenzije zaslona uređaja.
+
+Cijeli projekt je isključivo osobni kod, te nije korišten tutorial.
