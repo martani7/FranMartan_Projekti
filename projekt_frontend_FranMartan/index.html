@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;700&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Koulen&family=Roboto+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-100">
+    
+    <div class="d-flex flex-column h-100">
+        <div style="background-color: black;">            
+            <div class="d-flex align-items-center container" style="height: 96px;">
+                <a href="search_results.html" class="me-auto logo" style="margin-right: auto;">comic store</a>
+                <a href="" class="btn btn-outline-primary me-3" style="margin-right:16px;">Log in</a>
+                <a href="" class="btn btn-primary">Sign up</a>
+            </div>
+        </div>
+
+        <div class="mt-auto mb-auto">           
+            <div class="overlay">
+                <div class="search">
+                    <h1 class="mb-5">Best Online Comics<br>What do You like? </h1>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-text" id="inputGroup-sizing-lg">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <input type="text" placeholder="Search by keyword..." class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                    </div>
+                    <p class="mt-3 mb-1"><strong>Categories:</strong> <a href="">Marvel</a>, <a href="">DC</a>, <a href="">Other</a>...</p>
+                    <p><strong>Tags:</strong> <a href="">Superhero</a>, <a href="">Villian</a>, <a href="">Other</a>...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer d-flex align-items-center">            
+            <ul>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#about-us">About us</a></li>
+                <li><span class="footer-icon">
+                        <>
+                    </span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#terms-of-use">Terms of use</a></li>
+                <li><span class="footer-icon">
+                        <>
+                    </span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#cookie-policy">Cookie policy</a></li>
+                <li><span class="footer-icon">
+                        <>
+                    </span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="about-us" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>We are a free ONLINE comic book store. Founded in Croatia. Created by Fran Martan
+                </br>
+                </br>
+                Site consists of more than 500 free comics available to You now!
+                </br>
+                </br>
+                Create an account and join us for free today!
+                </br>
+                </br>
+                Varazdin, Croatia, 2022.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="terms-of-use" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Terms of use</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>The following are terms of a legal agreement between you and Comic Store ("The Site Owner"). By accessing, browsing
+                and/or using this web site ("The Site"), you acknowledge that you have read, understood, and agree, to be bound by these
+                terms and to comply with all applicable laws and regulations. If you do not agree to these terms, do not use this web
+                site.
+                
+                The Site Owner may at any time revise these terms by updating this posting. By using this web site, you agree to be
+                bound by any such revisions and should therefore periodically visit this page to determine the then current terms to
+                which you are bound.
+                
+                Please e-mail us with any questions.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="cookie-policy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cookie Policy</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>A cookie is a small piece of text that is sent to a visitor's browser by a Web site. The browser provides this piece of
+                text to the originating Web site when this visitor returns. Various portions of our Web sites use cookies.
+                
+                Most Web browsers are initially configured to accept cookies, but you can change this setting so your browser either
+                refuses all cookies or informs you when a cookie is being sent. Also, you are free to delete any existing cookies at any
+                time. Please note that many features of our Web sites may not function properly when cookies are disabled or removed.</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="containerContact">
+                        <form action="action_page.php">
+                    
+                            <label for="fname">First Name</label>
+                            <input class="form-area" type="text" id="fname" name="firstname" placeholder="Your name..">
+                    
+                            <label for="lname">Last Name</label>
+                            <input class="form-area" type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    
+                            <label for="country">Country</label>
+                            <select class="form-select" id="country" name="country">
+                                <option value="australia">Croatia</option>
+                                <option value="canada">USA</option>
+                                <option value="usa">Germany</option>
+                            </select>
+                    
+                            <label for="subject">Subject</label>
+                            <textarea class="form-text-area" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    
+                            <input class="form-submit" type="submit" value="Submit">
+                    
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
+
+    <script>
+        $("body").vegas({
+            slides: [
+                { src: "img/AMERICA.jpg" },
+                { src: "img/BATMAN.jpg" },
+                { src: "img/SPIDERMAN.jpg" }
+            ],
+            delay: 4000,
+            shuffle: true,
+            transition: 'fade2'
+        });
+    </script>
+
+</body>
+</html>

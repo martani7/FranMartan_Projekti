@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search results</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@400;700&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Koulen&family=Roboto+Mono:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="h-100">
+    
+    <div class="d-flex flex-column" style="min-height:100%;">
+        <div style="background-color: black;">            
+            <a href="" class="me-auto logo d-block d-lg-none text-center mt-3" style="margin-right: auto;">comic store</a>            
+            <div class="d-flex align-items-center container header" style="height: 96px;">
+                <a href="index.html" class="me-auto logo d-none d-lg-block" style="margin-right: auto;">comic store</a>                
+                <div class="input-group me-3">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" placeholder="Search by keyword..." class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>                                
+                <a href="" class="btn btn-primary me-3">
+                    <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                    Donate
+                </a>
+                <a href="" class="me-3"><img src="img/avatar.png" class="avatar" width="40" height="40" alt=""></a>
+                <a href="" class="btn-link">Logout</a>
+            </div>
+        </div>
+
+        <div class="mb-auto container">
+            <div class="subheader d-flex align-items-center">
+                <h1 class="me-auto">Search results</h1>
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Order by
+                    </a>                  
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Alphabet</a></li>
+                      <li><a class="dropdown-item" href="#">Date</a></li>
+                      <li><a class="dropdown-item" href="#">Marvel</a></li>
+                    <li><a class="dropdown-item" href="#">DC</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Batman</a>
+                        </div>
+                        <a href=""><img src="img/batmancomic.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Batman</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                            
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Flash, The New 52!</a>
+                        </div>
+                        <a href=""><img src="img/flash.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Flash</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                            
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Green Lantern vol. 7</a>
+                        </div>
+                        <a href=""><img src="img/greenlantern.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Green Lantern</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                            
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Iron Man</a>
+                        </div>
+                        <a href=""><img src="img/ironman.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Iron Man</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                            
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Man and Superman Deluxe Edition</a>
+                        </div>
+                        <a href=""><img src="img/superman.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Superman</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                            
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            
+                            <a href="" class="btn-link">Thor</a>
+                        </div>
+                        <a href=""><img src="img/thor.jpg" class="card-img-top" alt=""></a>                        
+                        <div class="card-body pb-0">
+                            <span class="action-like me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-thumbs-up"></i></a><span>24</span>
+                            </span>
+                            <span class="action-download me-4">
+                                <a href="" class="me-2"><i class="fa-solid fa-cloud-arrow-down"></i></a><span>32</span>
+                            </span>
+                            <span class="action-flag">
+                                <a href=""><i class="fa-solid fa-flag"></i></a>
+                            </span>                          
+                        </div>                        
+                        <div class="card-body">
+                            <h5 class="card-title">Thor</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text tags">Tags: <a href="">tag</a>, <a href="">tag</a></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>nikola:</strong> Great Comic! 🔥🔥🔥</li>
+                            <li class="list-group-item"><strong>petra:</strong> Best volume out there! 💖💖💖</li>
+                        
+                        </ul>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Comment">
+                                <button class="btn btn-outline-secondary" type="button">Post</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center mb-5 mt-4">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer d-flex align-items-center">
+            <ul>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#about-us">About us</a></li>
+                <li><span class="footer-icon"><></span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#terms-of-use">Terms of use</a></li>
+                <li><span class="footer-icon">
+                        <>
+                    </span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#cookie-policy">Cookie policy</a></li>
+                <li><span class="footer-icon">
+                        <>
+                    </span></li>
+                <li><a href="" data-bs-toggle="modal" data-bs-target="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="about-us" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>We are a free ONLINE comic book store. Founded in Croatia. Site is being led by two students, Luka Matvij and Fran Martan.
+                        </br>
+                        </br>
+                        Site consists of more than 500 free comics available to You now!
+                        </br>
+                        </br>
+                        Create an account and join us for free today! 
+                        </br>
+                        </br>
+                        Varazdin, Croatia, 2022.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="terms-of-use" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Terms of use</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>The following are terms of a legal agreement between you and Comic Store ("The Site Owner"). By
+                            accessing, browsing
+                            and/or using this web site ("The Site"), you acknowledge that you have read, understood, and agree,
+                            to be bound by these
+                            terms and to comply with all applicable laws and regulations. If you do not agree to these terms, do
+                            not use this web
+                            site.
+        
+                            The Site Owner may at any time revise these terms by updating this posting. By using this web site,
+                            you agree to be
+                            bound by any such revisions and should therefore periodically visit this page to determine the then
+                            current terms to
+                            which you are bound.
+        
+                            Please e-mail us with any questions.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="cookie-policy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cookie Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A cookie is a small piece of text that is sent to a visitor's browser by a Web site. The browser
+                            provides this piece of
+                            text to the originating Web site when this visitor returns. Various portions of our Web sites use
+                            cookies.
+        
+                            Most Web browsers are initially configured to accept cookies, but you can change this setting so
+                            your browser either
+                            refuses all cookies or informs you when a cookie is being sent. Also, you are free to delete any
+                            existing cookies at any
+                            time. Please note that many features of our Web sites may not function properly when cookies are
+                            disabled or removed.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="containerContact">
+                            <form action="action_page.php">
+        
+                                <label for="fname">First Name</label>
+                                <input class="form-area" type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+                                <label for="lname">Last Name</label>
+                                <input class="form-area" type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+                                <label for="country">Country</label>
+                                <select class="form-select" id="country" name="country">
+                                    <option value="australia">Croatia</option>
+                                    <option value="canada">USA</option>
+                                    <option value="usa">Germany</option>
+                                </select>
+        
+                                <label for="subject">Subject</label>
+                                <textarea class="form-text-area" id="subject" name="subject" placeholder="Write something.."
+                                    style="height:200px"></textarea>
+        
+                                <input class="form-submit" type="submit" value="Submit">
+        
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

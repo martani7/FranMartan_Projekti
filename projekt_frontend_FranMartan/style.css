@@ -1,0 +1,272 @@
+* {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+::placeholder {
+  color: #6c757d;
+  font-size: 1rem;
+}
+
+body {
+  background-color: #bbbe64;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+strong {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.logo {
+  font-family: "Koulen", cursive;
+  font-size: 50px;
+  color: #bbbe64;
+  text-decoration: none;
+}
+.logo:hover {
+  text-decoration: none;
+  font-size: 51px;
+}
+
+.footer-icon {
+  color: #bbbe64;
+}
+
+/* Buttons */
+.btn {
+  min-width: 120px;
+}
+.btn-outline-primary {
+  color: #bbbe64;
+  border-color: #bbbe64;
+}
+.btn-outline-primary:hover {
+  color: #f0f0f0;
+  background-color: #bbbe64;
+  border-color: #bbbe64;
+}
+.btn-primary {
+  color: white;
+  border-color: #3d0c11;
+  background-color: #3d0c11;
+}
+.btn-primary:hover {
+  color: white;
+  background-color: #d00000;
+  border-color: #d00000;
+}
+
+.btn-secondary {
+  background-color: #3d0c11;
+  border-color: #3d0c11;
+}
+
+.btn-secondary:hover {
+  background-color: #d00000;
+  border-color: #d00000;
+}
+
+.btn-outline-secondary {
+  border-color: #3d0c11;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #d00000;
+  border-color: #d00000;
+  color: white;
+}
+
+.dropdown-toggle:visited {
+  background-color: black;
+}
+
+.dropdown-toggle:hover {
+  background-color: rgb(66, 66, 66);
+}
+
+/* Home - Search */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.search {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search h1 {
+  text-align: center;
+  color: white;
+}
+.search .input-group-text {
+  background-color: white;
+  border: none;
+}
+.search input {
+  border: none;
+  height: 60px;
+}
+.search .form-control {
+  padding-left: 0;
+  font-size: 1rem;
+}
+.search .form-control:focus {
+  border: none;
+}
+.fa-magnifying-glass {
+  color: #6c757d;
+}
+.search p {
+  margin-bottom: 0;
+  color: #bbbe64;
+}
+.search p a {
+  color: white;
+}
+
+.search h1 {
+  color: #bbbe64;
+}
+
+/* Footer */
+.footer {
+  background-color: black;
+  height: 48px;
+  color: white;
+}
+.footer ul {
+  margin: 0 auto;
+  padding: 0;
+}
+.footer ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Modal */
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  color: #f0f0f0;
+  background-color: #4c243b;
+}
+
+/* Header */
+.header .input-group {
+  max-width: 400px;
+}
+.header .input-group-text {
+  background-color: white;
+  border: 1px solid #ced4da;
+}
+.header input,
+.header .form-control:focus {
+  border: 1px solid #ced4da;
+  border-left: none;
+}
+.avatar {
+  border-radius: 50%;
+}
+.btn-link {
+  color: white;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Subheader */
+.subheader {
+  height: 192px;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #e9ecef;
+  color: black;
+}
+
+/* Card */
+.card-img-top {
+  border-radius: 0;
+}
+
+.card {
+  background-color: black;
+  color: white;
+}
+
+.card a {
+  color: white;
+  font-weight: bolder;
+}
+
+.card a:hover {
+  color: white;
+}
+
+.card ul li {
+  background-color: black;
+  color: white;
+}
+
+.card .action-like a,
+.card .action-download a,
+.card .action-flag a {
+  color: #bbbe64;
+  font-size: 1.4rem;
+}
+.card .action-flag a {
+  font-size: 1.2rem;
+}
+.card .tags a {
+  color: white;
+  text-decoration: none;
+}
+.card .tags a:hover {
+  text-decoration: underline;
+}
+.card .form-control:focus {
+  border-color: #6c757d;
+}
+
+.containerContact {
+  border-radius: 5px;
+  background-color: #4c243b;
+  padding: 20px;
+}
+
+.form-area,
+.form-select,
+.form-text-area {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.form-submit {
+  background-color: #3d0c11;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #d00000;
+}
